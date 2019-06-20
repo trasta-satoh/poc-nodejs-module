@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "cd src && tsc -D",
     "lint": "eslint \"./**/*.{ts,tsx,js,jsx}\"",
     "lint:fix": "eslint --fix \"./**/*.{ts,tsx,js,jsx}\"",
     "test": "echo 'no test' && exit 0;"
