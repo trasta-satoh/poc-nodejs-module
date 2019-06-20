@@ -1,1 +1,1 @@
-export declare const echo: (value: string) => string
+export declare const echo: (value: any) => any;

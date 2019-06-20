@@ -1,4 +1,4 @@
 /**
  *
  */
-export declare const fetchData: () => boolean
+export declare const fetchData: () => boolean;

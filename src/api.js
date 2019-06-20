@@ -1,8 +1,8 @@
-'use strict'
-Object.defineProperty(exports, '__esModule', { value: true })
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  *
  */
-exports.fetchData = function() {
-  return true // aaaa aaa
-}
+exports.fetchData = function () {
+    return true; // aaaa aaa
+};
