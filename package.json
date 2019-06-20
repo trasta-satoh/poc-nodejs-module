@@ -1,14 +1,13 @@
 {
   "name": "poc-nodejs-module",
   "version": "1.0.0",
+  "description": "poc-nodejs-module",
   "main": "./src/index.ts",
-  "repository": "ssh://git@github.com/wild.lycaon/poc-nodejs-module",
+  "repository": "ssh://git@github.com/wild-lycaon/poc-nodejs-module",
   "author": "wild.lycaon",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development",
     "lint": "eslint \"./**/*.{ts,tsx,js,jsx}\"",
     "lint:fix": "eslint --fix \"./**/*.{ts,tsx,js,jsx}\"",
     "test": "echo 'no test' && exit 0;"
@@ -17,8 +16,7 @@
     "auth0-js": "^9.10.3",
     "isomorphic-unfetch": "^3.0.0",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
-    "webpack": "^4.33.0"
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "@types/auth0-js": "^9.10.2",
@@ -35,7 +33,6 @@
     "eslint-plugin-standard": "^4.0.0",
     "prettier": "^1.17.0",
     "ts-loader": "^6.0.3",
-    "typescript": "^3.5.2",
-    "webpack-cli": "^3.3.4"
+    "typescript": "^3.5.2"
   }
 }
