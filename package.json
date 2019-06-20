@@ -1,7 +1,8 @@
 {
-  "name": "frontend-utils",
+  "name": "poc-nodejs-module",
   "version": "1.0.0",
   "main": "./dist/main.js",
+  "repository": "ssh://git@github.com/wild.lycaon/poc-nodejs-module",
   "author": "wild.lycaon",
   "license": "MIT",
   "private": true,
