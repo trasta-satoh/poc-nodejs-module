@@ -12,3 +12,8 @@ $ npm install
   ```
   $ tsc -D
   ```
+
+## How to use
+```
+npm install 'wild-lycaon/poc/nodejs-module'
+```
